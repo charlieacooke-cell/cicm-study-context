@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 2 May 2026 · 92 days to written · 166 days to oral*
-*185 Anki cards · 25 points covered · 25 in progress · 126 not started · 176 total*
+*186 Anki cards · 25 points covered · 25 in progress · 126 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -108,10 +108,10 @@ Gs → ↑cAMP → ↑PKA
 
 Heart:
 
-↑HR (HCN/If channels)
-↑Inotropy (↑ICaL → ↑Ca²⁺ → ↑CICR)
-↑Lusitropy (phospholamban → ↑SERCA → faster Ca²⁺ reuptake)
-↑AV conduction (↑ICaL in nodal tissue)
+↑Choronotropy (HCN/If channels) (directly from cAMP)
+↑Inotropy (PKA -> ↑ICaL → ↑Ca²⁺ → ↑CICR)
+↑Lusitropy (PKA -> phospholamban → ↑SERCA → faster Ca²⁺ reuptake)
+↑Dromotropy (AV conduction) (PKA -> ↑ICaL in nodal tissue)
 
 JGA kidney: ↑renin release
 - **Q:** β2 receptor (Gs): locations and effects? (7 organs)
@@ -1341,7 +1341,7 @@ Contrast skeletal muscle: DHPR mechanically coupled directly to RyR — no Ca²�
 4. Rigor state — myosin remains tightly bound to actin. No nucleotide present — this is rigor mortis (ATP depleted, cross-bridges locked)
 5. Detachment + re-cocking — new ATP binds myosin → releases from actin → ATP hydrolysed → head returns to high-energy position
 
-ATP has two functions: (binding = actin and myosin detachment) and (Hydrolysis = myosin head re-cocking). Force generated at power stroke (step 3)
+ATP has two functions: (ATP binds binding = actin and myosin detachment) and (Hydrolysis = myosin head re-cocking). Force generated at power stroke (step 3)
 - **Q:** How does the cardiomyocyte remove cytosolic calcium to achieve relaxation? Name the 2 main and 2 minor mechanisms.
   **A:** SERCA (~80%, dominant) — ↑Ca²⁺ pumped back into SR. ATP-dependent. Phospholamban inhibits at rest → PKA phosphorylation → dissociates from SERCA → disinhibited → ↑Ca²⁺ reuptake → lusitropy
 
@@ -1577,7 +1577,7 @@ VR = (MSFP − RAP) / resistance to venous return
 5. Pericardial compliance — directly limits diastolic expansion independent of venous return
 (tamponade: ↑RAP + external compression — both mechanisms simultaneously)
 - **Q:** Afterload: define and classify the determinants
-  **A:** Definition: The sum of forces, both elastic and kinetic, opposing ventricular ejection — equivalent to ventricular wall stress during systole.
+  **A:** Definition: The sum of forces, opposing ventricular ejection — quantified as ventricular wall stress during systole.
 
 Wall stress (Laplace):
 \(\sigma = \frac{P \times r}{2h}\)
@@ -1759,13 +1759,13 @@ t½: ~10 min (cf. adrenaline ~2 min — less titratable)
 Distribution: ~70% protein bound
 Metabolism: tissue peptidases (liver + kidney)
 Elimination: ~⅓ excreted unchanged renally → prolonged effect in renal failure (unlike adrenaline)
-- **Q:** Vasopressin pharmacodynamics: effects by system? (CVS, respiratory, renal, haematological, metabolic, GU)
+- **Q:** Vasopressin pharmacodynamics: effects by system? (CVS, respiratory, renal, haematological, metabolic, Gyne)
   **A:** CVS: ↑SVR → ↑MAP via V1a (Gq, vascular smooth muscle); no chronotropy/inotropy/lusitropy; consistent vasoconstriction (no biphasic effect); not arrhythmogenic; ↓MVO₂ cf. adrenaline
 Respiratory: ↓PVR (pulmonary vasodilation — endothelial mechanism); no bronchial effect
 Renal: V2 → aquaporin-2 insertion → ↑water reabsorption → ↑urine osmolality, ↓urine volume; ↓renal medullary blood flow
 Haematological: V2 on endothelium → ↑vWF + ↑Factor VIII release (cf. desmopressin)
 Metabolic: V1a → hepatic glycogenolysis → ↑glucose; no direct lactate effect (cf. adrenaline β2)
-GU: V1a on uterine smooth muscle → uterotonic → avoid in pregnancy; ↑GI smooth muscle tone
+Gyne: V1a on uterine smooth muscle → uterotonic → avoid in pregnancy; ↑GI smooth muscle tone
 - **Q:** Why is vasopressin used in vasodilatory septic shock, and why is the dose fixed rather than titrated?
   **A:** Rationale:
 1. Relative vasopressin deficiency: sustained baroreceptor activation depletes posterior pituitary stores → plasma vasopressin paradoxically low despite hypotension; exogenous vasopressin restores physiological levels
