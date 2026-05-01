@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 2 May 2026 · 92 days to written · 166 days to oral*
-*186 Anki cards · 25 points covered · 25 in progress · 126 not started · 176 total*
+*187 Anki cards · 25 points covered · 25 in progress · 126 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
