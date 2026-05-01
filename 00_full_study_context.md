@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 2 May 2026 · 92 days to written · 166 days to oral*
-*187 Anki cards · 25 points covered · 25 in progress · 126 not started · 176 total*
+*188 Anki cards · 25 points covered · 26 in progress · 125 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -1282,10 +1282,13 @@ Measured in mg/L
 *Describe the principles of measuring oxygen concentration.*
 
 ## G: Cardiovascular System ⭐ HIGH YIELD
-*5/32 covered · 6 in progress · 39 cards*
+*5/32 covered · 7 in progress · 40 cards*
 
-### ⬜ G1.i `not_covered` · 0/~4 cards
+### 🟡 G1.i `partial` · 1/~4 cards
 *Describe the anatomy of the heart including the chambers, valves, pericardium, and the orientation of the heart.*
+
+- **Q:** Test 3
+  **A:** Test 3
 
 ### 🟡 G1.ii `partial` · 1/~5 cards
 *Describe the coronary circulation and its regulation.*
