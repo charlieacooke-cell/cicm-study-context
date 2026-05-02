@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 2 May 2026 · 91 days to written · 165 days to oral*
-*202 Anki cards · 30 points covered · 24 in progress · 122 not started · 176 total*
+*208 Anki cards · 30 points covered · 24 in progress · 122 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -2213,7 +2213,7 @@ HA = the concetration of acid
 *Describe the pharmacology of oxytocic drugs.*
 
 ## W: Principles of Measurement and Equipment
-*1/4 covered · 1 in progress · 21 cards*
+*1/4 covered · 1 in progress · 27 cards*
 
 ### ✅ W.i `covered` · 20 cards
 *Describe the laws governing the behaviour of gases and liquid.*
@@ -2290,7 +2290,7 @@ P = k x T
 ### ⬜ W.iii `not_covered` · 0 cards
 *Outline the physical principles of ultrasound including transducer properties, image resolution and the Doppler Effect.*
 
-### 🟡 W.iv `partial` · 1 cards
+### 🟡 W.iv `partial` · 7 cards
 *Explain the electrical concepts of current, potential difference, resistance, impedance, inductance, capacitance, frequency, and amplitude as they relate to biological signals and biomedical apparatus.*
 
 - **Q:** Define Impedance?
@@ -2299,6 +2299,33 @@ P = k x T
 Respiratory context:
 Mechanical opposition to oscillating air flow. 
 Incorporates airway resistance, and Reactance (which has elastic component, and inertial (non elastic component)
+- **Q:** Define resonance in the context of an arterial line system
+  **A:** Amplification of signal components whose frequency approaches the natural frequency of the system.
+The arterial line is a driven harmonic oscillator — cardiac pulsations drive it. When harmonics of the arterial waveform approach the system's natural frequency, those components are amplified rather than faithfully transmitted.
+- **Q:** Define the natural frequency of an arterial line system
+  **A:** The frequency at which the fluid-filled system oscillates freely when disturbed and left alone.
+Typical clinical systems: 10–15 Hz.
+Accurate BP measurement requires the natural frequency to be >>the highest signal harmonic — ideally >30 Hz.
+- **Q:** 4 factors that lower the natural frequency of an arterial line system
+  **A:** 1. Long tubing
+2. Compliant (soft) tubing
+3. Air bubbles (↑ compliance)
+4. ↑ fluid mass in system
+- **Q:** Overdamped vs underdamped arterial line — SBP, DBP, MAP?
+  **A:** Underdamped: ↑SBP, ↓DBP
+Overdamped: ↓SBP, ↑DBP
+MAP: preserved in both
+- **Q:** 4 causes of overdamping in an arterial line
+  **A:** 1. Air bubble
+2. Clot at cannula tip
+3. Kinked cannula or tubing
+4. Long, compliant, or narrow tubing
+
+All increase energy dissipation or reduce transmission of the pressure wave.
+- **Q:** Fast flush test — describe appearance for each: optimal, underdamped, overdamped
+  **A:** Optimal (DC ~0.64): one overshoot + one undershoot → settles
+Underdamped (DC <0.64): multiple oscillations, slow to settle
+Overdamped (DC >1): no oscillations, sluggish return to baseline
 
 ## X: Procedural Anatomy
 *0/6 covered · 0 in progress · 0 cards*
