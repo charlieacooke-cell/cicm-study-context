@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
-*Generated 2 May 2026 · 92 days to written · 166 days to oral*
-*188 Anki cards · 25 points covered · 26 in progress · 125 not started · 176 total*
+*Generated 2 May 2026 · 91 days to written · 165 days to oral*
+*202 Anki cards · 30 points covered · 24 in progress · 122 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -588,7 +588,7 @@ Resistive work (~35%)
 Inertial work: Negligent%. Work required to accelerate gas and tissue.
 - **Q:** What is the O2 cost of breathing at rest vs disease? What is the optimal breathing pattern in stiff lungs vs obstructed airways, and why?
   **A:** O2 cost:
-- Normal resting breathing: <5% of total O2 consumption (~3 mL/min)
+- Normal resting breathing: ~ 1.5% of total O2 consumption (~3 mL/min)
 - Voluntary hyperventilation: up to 30%
 - Severe obstructive/restrictive disease: respiratory muscles may consume >50% of total O2 delivery — key rationale for mechanical ventilation to offload this cost
 
@@ -1282,13 +1282,10 @@ Measured in mg/L
 *Describe the principles of measuring oxygen concentration.*
 
 ## G: Cardiovascular System ⭐ HIGH YIELD
-*5/32 covered · 7 in progress · 40 cards*
+*10/32 covered · 5 in progress · 56 cards*
 
-### 🟡 G1.i `partial` · 1/~4 cards
+### ⬜ G1.i `not_covered` · 0/~4 cards
 *Describe the anatomy of the heart including the chambers, valves, pericardium, and the orientation of the heart.*
-
-- **Q:** Test 3
-  **A:** Test 3
 
 ### 🟡 G1.ii `partial` · 1/~5 cards
 *Describe the coronary circulation and its regulation.*
@@ -1671,11 +1668,92 @@ Ejection fraction
 
 EF just measures how much of the EDV gets ejected. It's load-dependent in both directions — high afterload means the ventricle can't empty as well (reduced EF without reduced contractility), and low afterload flatters EF. The preserved EF point on your card is clinically important: in diastolic dysfunction the problem is the ventricle won't fill properly, so EDV is low and SV is low, but the ratio is maintained — EF looks normal while the patient has heart failure.
 
-### ⬜ G3.iv `not_covered` · 0/~3 cards
+### ✅ G3.iv `covered` · 4/~3 cards
 *Describe myocardial oxygen demand and supply and the conditions that may alter each.*
 
-### ⬜ G3.v `not_covered` · 0/~5 cards
+- **Q:** What are the three determinants of myocardial oxygen consumption (MVO2), and what is the normal resting value?
+  **A:** Determinants:
+1. Wall tension (largest contributor ~70%)
+2. Heart rate
+3. Contractility
+
+Normal MVO2: ~8–10 mL O2/100g/min at rest
+- **Q:** Why is wall tension the largest determinant of MVO2, and what governs it?
+  **A:** Wall tension = afterload = ventricular wall stress during systole
+Governed by Laplace: T = (P × r) / 2h
+P = transmural pressure, r = radius, h = wall thickness
+
+↑afterload (↑P or ↑r) → ↑wall tension → ↑MVO2
+↑wall thickness (hypertrophy) → ↓wall tension → initially compensatory
+
+Dilated cardiomyopathy: ↑r dominates → high wall tension despite low ejection pressures → high MVO2
+- **Q:** What is the myocardial oxygen extraction ratio at rest, and what is its key consequence for O2 supply?
+  **A:** Myocardial OER: ~70–75% at rest (coronary sinus SaO2 ~25–30%)
+cf. whole body OER ~25% at rest
+
+Consequence: the heart has almost no extraction reserve — the only mechanism to increase myocardial O2 supply is to increase coronary blood flow
+
+Contrast: skeletal muscle can increase OER from 25% to ~70% during exercise before flow needs to increase
+- **Q:** Coronary perfusion pressure (CPP) for the LV — equation and normal values?
+  **A:** CPP = aortic diastolic pressure − LVEDP
+
+Normal values:
+Aortic DBP: ~70 mmHg
+LVEDP: ~8–12 mmHg
+CPP: ~60 mmHg
+
+↑LVEDP (heart failure, volume overload) → ↓CPP from below
+↓DBP (vasodilation, aortic regurgitation) → ↓CPP from above
+Tachycardia: ↓diastolic time → ↑LVEDP + ↓DBP → CPP squeezed from both ends
+
+### ✅ G3.v `covered` · 6/~5 cards
 *Describe and explain cardiac output curves, vascular function curves and their correlation.*
+
+- **Q:** Cardiac output curve — axes, shape, and what shifts it up/down/right?
+  **A:** Axes: x = RAP (atmospheric reference, mmHg); y = CO (L/min)
+Shape: rises steeply (Frank-Starling), plateaus at maximum CO (~7.5 L/min normal)
+Plateau: when transmural RAP ≤ 0 — great veins collapse, VR physically limited
+
+↑ curve (↑CO for same RAP): ↑contractility, ↑HR, ↓afterload, ↓ITP (spontaneous inspiration)
+↓ curve: ↓contractility (heart failure, septic cardiomyopathy), ↑afterload
+Shift right: ↑ITP (PEEP) — same pump capability, but higher atmospheric RAP needed for same transmural filling
+- **Q:** Vascular function curve — axes, shape, equation, and what shifts it?
+  **A:** Axes: x = RAP (atmospheric, mmHg); y = venous return (L/min)
+Equation: VR = (MSFP − RAP) / venous resistance
+Shape: flat plateau at RAP ≤ 0 (great vein collapse), linear decline to x-intercept at MSFP
+
+X-intercept = MSFP — VR = 0 when RAP = MSFP
+Plateau = maximum VR — physical limit when great veins collapse
+
+Shifts x-intercept right (↑MSFP): fluid, venoconstriction
+Shifts x-intercept left (↓MSFP): haemorrhage, vasodilation
+Steeper slope (↑resistance): ↓VR at any given RAP; pivot point = MSFP
+- **Q:** Mean systemic filling pressure (MSFP) — definition, normal value, and determinants?
+  **A:** Definition: the pressure that would equilibrate throughout the entire systemic vasculature if flow stopped — a static pressure; heart-independent
+Normal: ~7–8 mmHg
+Normal RAP: ~2 mmHg → venous return gradient = ~5–6 mmHg
+
+Determinants:
+1. Stressed blood volume
+2. Venous tone
+
+Venoconstriction → recruits unstressed → stressed volume → ↑MSFP without adding fluid
+Haemorrhage → ↓stressed volume → ↓MSFP
+- **Q:** Stressed vs unstressed blood volume — definitions, proportions, and clinical relevance?
+  **A:** Unstressed volume: blood filling the vasculature without generating transmural pressure — occupying slack space; ~70% of total blood volume (~3.5L)
+Stressed volume: blood above unstressed that stretches vessel walls and generates pressure; ~30% (~1.5L) — determines MSFP
+
+Venoconstriction: reduces vessel capacity → recruits unstressed → stressed → ↑MSFP without adding fluid
+Haemorrhage: loses stressed volume directly → ↓MSFP → ↓VR gradient
+Vasodilation: ↑vessel capacity → stressed → unstressed → ↓MSFP
+- **Q:** What does the intersection of the cardiac output and vascular function curves represent, and why must CO equal venous return at steady state?
+  **A:** Intersection: the only combination of RAP and CO/VR satisfying both curves simultaneously — the actual operating point
+
+Why CO = VR at steady state: the circulation is a closed loop in series — by conservation of flow, what leaves the heart must equal what returns. Any mismatch is transient and drives RAP up or down until equilibrium is restored
+
+Neither curve alone predicts outcome — the cardiac curve says 'given this RAP, here's what the heart pumps'; the vascular curve says 'given this RAP, here's what the periphery delivers.' Reality is only the intersection.
+- **Q:** How do key interventions shift the cardiac output and vascular function curves, and what happens to equilibrium RAP and CO?
+  **A:** InterventionCurve movedRAPCOInotropeCardiac ↑↓↑Fluid bolusVascular right↑↑HaemorrhageVascular left↓↓PEEPCardiac right↑↓VasopressorVascular right + steeper↑→ or ↓VasodilatorVascular left + cardiac ↑↓↓↑ (in failure)Heart failureCardiac ↓ + flat↑↓
 
 ### ⬜ G3.vi `not_covered` · 0/~6 cards
 *Describe the pressure-volume relationships of the ventricles and their clinical applications.*
@@ -1714,14 +1792,94 @@ Lost with age/arterial stiffness: increased pulse pressure, increased LV afterlo
 ### ⬜ G4.vi `not_covered` · 0 cards
 *Describe total peripheral vascular resistance and the factors that affect it.*
 
-### ⬜ G4.vii `not_covered` · 0 cards
+### ✅ G4.vii `covered` · 3 cards
 *Describe the factors that affect venous oxygen saturation.*
+
+- **Q:** Oxygen extraction ratio (OER) — equation, normal whole body value, normal myocardial value, and what happens below critical DO2?
+  **A:** OER = VO2 / DO2 = (CaO2 − CvO2) / CaO2
+
+Normal whole body at rest: ~25% (VO2 250 mL/min, DO2 1000 mL/min)
+Maximum whole body OER: ~70% — this is the critical DO2 threshold
+Myocardial OER at rest: ~70–75% — almost at maximum already
+
+Above critical DO2: supply-independent — VO2 constant despite changes in DO2; tissues extract proportionally less
+Below critical DO2: supply-dependent — VO2 falls with DO2; anaerobic metabolism begins
+- **Q:** SvO2 — definition, sampling site, normal value, and causes of ↑ and ↓?
+  **A:** Definition: mixed venous oxygen saturation — O2 saturation of blood returning from the entire body
+Sampled from: pulmonary artery (truly mixed)
+Normal: 70–75%
+
+From Fick: SvO2 = SaO2 − (VO2 / CO × Hb × 1.34)
+
+↓SvO2: ↓CO, ↓SaO2, ↓Hb, ↑VO2 (fever, shivering, sepsis early)
+↑SvO2: ↑CO (high output states), ↓VO2 (sedation, paralysis, hypothermia), cytotoxic hypoxia (cyanide), distributive shunting
+Critical threshold: <65% = impaired O2 delivery; >80% = high output, cytotoxic, or shunting
+- **Q:** ScvO2 vs SvO2 — sampling sites, normal values, normal relationship and why, reversal in shock and why?
+  **A:** SvO2: pulmonary artery (mixed whole body); normal 70–75%
+ScvO2: SVC/RA junction (upper body — brain + arms); normal 65–70%
+
+Normal: ScvO2 < SvO2 by ~5%
+IVC blood contains high-saturation renal venous blood (~81%) — kidneys have very high flow relative to O2 consumption — raising mixed SvO2 above upper-body ScvO2
+
+In shock: reverses — ScvO2 > SvO2
+Splanchnic/renal vasoconstriction → ↑O2 extraction in those beds → IVC desaturates → ↓SvO2; cerebral perfusion preserved → SVC saturation maintained
+
+Clinical implication: ScvO2 overestimates SvO2 in shock — falsely reassuring; practical advantage is continuous measurement via CVC
 
 ### ⬜ G5.i `not_covered` · 0 cards
 *Explain the cardiovascular responses to changes in posture, hypovolaemia, a fluid bolus, anaemia, exercise, and aging.*
 
-### ⬜ G5.ii `not_covered` · 0/~2 cards
+### ✅ G5.ii `covered` · 4/~2 cards
 *Explain the physiological consequences of intermittent positive pressure ventilation, positive end-expiratory pressure (see also F10 i.) and the Valsalva manoeuvre.*
+
+- **Q:** Define PEEP and iPEEP — and how does external PEEP affect iPEEP?
+  **A:** PEEP: positive airway pressure maintained at end-expiration; externally applied
+Distinct from CPAP (positive pressure throughout entire cycle) and from spontaneous breathing (airway pressure returns to zero at end-expiration)
+
+iPEEP (intrinsic/auto-PEEP): unintentional positive end-expiratory pressure from gas trapping — expiration incomplete before next breath; occurs with ↑RR, prolonged expiratory time, ↑airway resistance, ↓compliance
+
+External PEEP and iPEEP: external PEEP can limit iPEEP generation by maintaining airway patency in late expiration, reducing dynamic airway collapse
+- **Q:** Respiratory effects of PEEP — beneficial and adverse?
+  **A:** Beneficial:
+↑FRC → alveolar recruitment above closing capacity → ↓shunt → ↑PaO2
+Recruitment → onto steep P-V curve → ↑compliance → ↓WOB
+↑lung volume → radial traction on airways → ↓AWR
+↓extravascular lung water
+
+Adverse:
+Overdistension → flat P-V curve → ↓compliance → ↑WOB
+Alveolar overdistension → compress alveolar vessels → ↑PVR → ↑RV afterload
+↑lung volume → inward parenchymal traction on extra-alveolar vessels → ↑PVR
+↑West Zone 1 → ↑alveolar dead space
+Barotrauma/volutrauma
+
+Healthy lung: already recruited at baseline → PEEP causes overdistension with minimal recruitment benefit
+- **Q:** How does PEEP affect venous return and the right heart?
+  **A:** Mechanism: ↑ITP → ↑atmospheric RAP → ↓(MSFP − RAP) gradient → ↓venous return
+Graphically: cardiac output curve shifts right (higher atmospheric RAP needed for same transmural filling pressure); vascular curve unchanged (MSFP and venous resistance are extrathoracic)
+New equilibrium: ↑RAP, ↓CO
+
+Right heart:
+↓venous return → ↓RV preload → ↓RV output
+↑PVR → ↑RV afterload → ↓RV output
+These compound each other
+
+Modifiers:
+Worse in hypovolaemia: ↓MSFP → narrow baseline VR gradient → same RAP rise abolishes it
+Attenuated in stiff lungs (ARDS): ↓ITP transmission per cmH2O PEEP → smaller RAP rise
+- **Q:** How does PEEP affect the left ventricle, and why can it improve CO in LV failure?
+  **A:** LV preload: ↓RV output → ↓pulmonary venous return → ↓LV filling → ↓CO (dominant effect in normal heart)
+RV dilation → septal shift → ↓LV compliance → ↓LV filling
+
+LV afterload: ↑ITP → ↓transmural LV pressure during systole → ↓wall tension (Laplace) → ↓afterload → ↑CO
+
+In LV failure: afterload reduction benefit outweighs preload reduction cost → net ↑CO
+Mechanism: failing LV is afterload-sensitive and preload-insensitive (flat cardiac curve) → ↓afterload shifts cardiac curve up more than ↓preload shifts VR curve left
+
+End-organ effects:
+Renal: ↓CO + ↑renal venous pressure → ↓RBF → ↓GFR; ↓atrial stretch → ↓ANP → ↑ADH → fluid retention
+Hepatic: ↓hepatic blood flow → hepatocyte dysfunction
+CNS: ↑CVP → ↑ICP
 
 ### ⬜ G6.i `not_covered` · 0 cards
 *Describe the principles behind the electrocardiogram (ECG).*
@@ -1732,7 +1890,7 @@ Lost with age/arterial stiffness: increased pulse pressure, increased LV afterlo
 ### ⬜ G6.iii `not_covered` · 0 cards
 *Describe the methods of measurement of cardiac output including limitations, potential sources of error, the need for calibration and the values obtained.*
 
-### 🟡 G7.i `partial` · 8/~2 cards
+### ✅ G7.i `covered` · 8/~2 cards
 *Understand the pharmacology of inotropes and vasopressors.*
 
 - **Q:** Adrenaline: receptors, G-proteins, and cardiovascular effects at each receptor?
