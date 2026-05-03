@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
-*Generated 2 May 2026 · 91 days to written · 165 days to oral*
-*208 Anki cards · 30 points covered · 24 in progress · 122 not started · 176 total*
+*Generated 3 May 2026 · 90 days to written · 164 days to oral*
+*217 Anki cards · 31 points covered · 23 in progress · 122 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -242,7 +242,7 @@ Pupil sphincter → miosis
 *Describe the composition and control of intracellular fluid and the mechanisms by which cells maintain homeostasis and integrity.*
 
 ## F: Respiratory System ⭐ HIGH YIELD
-*17/55 covered · 16 in progress · 93 cards*
+*18/55 covered · 15 in progress · 102 cards*
 
 ### 🟡 F1.i `partial` · 2/~4 cards
 *Describe the structure and function of the upper airway, lower airway, and alveolus.*
@@ -260,7 +260,7 @@ Normally the ISB lies at the 4th-5th generation sub-segmental bronchi. Shifted l
 ### ⬜ F1.iii `not_covered` · 0 cards
 *Outline the anatomy of the pulmonary and bronchial circulations.*
 
-### 🟡 F2.i `partial` · 7/~4 cards
+### ✅ F2.i `covered` · 16/~4 cards
 *Describe the control of breathing.*
 
 - **Q:** What is the role of the respiratory centers in the medulla?
@@ -278,6 +278,71 @@ Dorsal respiratory group (“inspiratory group”)Generates primary inspiratory 
   **A:** Below the ventral surface of the medulla
 - **Q:** Which factors influence CSF pH?
   **A:** PCO2 of bloodCO2 in blood diffuses across BBB into CSFCombines with H2O to form H2CO3 (via c.a.)Dissociates into H+ (and HCO3) → ↑ ECF [H+]Local blood flowCerebral vasodilation (ie. due to ↑ PaCO2) causes ↑ CBF → ↑ diffusion of CO2 from blood into CSF → ↑ ECF [H+]Local metabolism↑ cerebral metabolism causes ↑ ECF [H+]
+- **Q:** Peripheral chemoreceptors — location, innervation, and stimuli for each?
+  **A:** Carotid bodies: bifurcation of common carotid artery → glossopharyngeal nerve (CN IX)
+Aortic bodies: aortic arch → vagus nerve (CN X)
+
+Stimuli:
+CarotidAortic↓PaO₂✓✓↑PaCO₂✓✓↓pH✓✗
+Respond to O₂ tension not content — anaemia and CO poisoning do not stimulate them
+- **Q:** Central vs peripheral chemoreceptors — 4 key differences?
+  **A:** CentralPeripheralLocationVentral medullaCarotid + aortic bodiesStimulusCSF H⁺ only↓PaO₂, ↑PaCO₂, ↓pHCO₂ response~80%~20%SpeedSlow (CO₂ must cross BBB)Fast (1–3s)
+Peripheral are the only receptors sensing PaO₂ and the only ones responding to fixed acid (↓pH)
+- **Q:** CO₂/ventilation response curve — shape, gradient, apnoeic threshold, and 3 modifiers?
+  **A:** Shape: linear
+Gradient: ↑2–3 L/min per 1 mmHg ↑PaCO₂
+Apnoeic threshold: ~36 mmHg — extrapolated x-intercept; awake humans don't reach zero due to cortical wakefulness drive
+
+Modifiers:
+↓PaO₂ → shifts curve left + up, steeper slope; apnoeic threshold moves lower
+Opioids/sedatives → shifts right, flattens slope
+Sleep → blunts response
+- **Q:** O₂/ventilation response curve — shape, threshold, asymptotes, and effect of raised PaCO₂?
+  **A:** Shape: hyperbolic
+Threshold: flat until PaO₂ ~60 mmHg; rises steeply below ~50 mmHg
+
+Asymptotes:
+Right (high PaO₂): approaches ~5 L/min — basal ventilation driven purely by CO₂; peripheral chemoreceptors silent above 60 mmHg
+Left (low PaO₂): peripheral chemoreceptors firing maximally; below ~20–30 mmHg consciousness is lost — curve becomes physiologically irrelevant
+
+Raised PaCO₂: shifts entire curve up and right — synergistic with hypoxic drive
+- **Q:** Hering-Breuer inflation reflex — receptor, afferent, central targets, and clinical relevance?
+  **A:** Receptor: slowly adapting stretch receptors in smooth muscle of trachea and bronchi
+Afferent: myelinated vagal fibres
+Central targets:
+1. DRG (inspiratory area) — directly inhibited
+2. Apneustic centre — inhibited from activating DRG
+Effect: ↑ duration of expiration — inspiratory off-switch
+
+Clinical: threshold >1L in awake adults — not active at normal TV. Under anaesthesia: large manual inflation → transient apnoea. Prominent in neonates.
+- **Q:** Hering-Breuer deflation reflex — stimulus and effect?
+  **A:** Stimulus: marked lung deflation — activates deflation-sensitive receptors
+Effect: ↓ duration of expiration → promotes earlier next inspiration
+
+Opposite of inflation reflex. Prevents end-expiratory atelectasis. More prominent under anaesthesia and in neonates.
+- **Q:** Rapidly adapting (irritant) receptors — location, stimulus, response, and 2 clinical pearls?
+  **A:** Location: epithelial cells of large airways (e.g. carina)
+Stimulus: rate of change of lung volume; chemical irritants (smoke, noxious gases)
+Response: rapid shallow breathing
+Afferent: myelinated vagal fibres
+
+Clinical pearls:
+1. Responsible for the sigh/augmented breath every ~15 min — stimulated by microatelectasis
+2. Implicated in first breaths of the newborn
+- **Q:** J receptors (C-fibres) — location, stimuli, and reflex response?
+  **A:** Location: adjacent to pulmonary capillaries in alveolar walls
+Stimuli: interstitial oedema, histamine, bradykinin, prostaglandins
+Afferent: unmyelinated vagal C-fibres
+Reflex response: apnoea → rapid shallow breathing + bradycardia + hypotension
+
+Explains rapid shallow breathing and cardiovascular depression in pulmonary oedema and ARDS
+- **Q:** Other afferent inputs to the respiratory centre — 4 types and their effects?
+  **A:** Baroreceptors: ↓BP → ↑ventilation; ↑BP → ↓ventilation
+Joint/muscle receptors + spindles: limb movement → ↑ventilation (exercise response)
+Nociceptors: pain → initial apnoea then ↑ventilation
+Thermoreceptors: ↑temperature → ↑ventilation (via thalamus)
+
+Cortex and limbic system can override all of the above
 
 ### ⬜ F3.i `not_covered` · 0/~2 cards
 *Describe the inspiratory and expiratory processes involving the chest wall, diaphragm, pleura, and lung parenchyma.*
