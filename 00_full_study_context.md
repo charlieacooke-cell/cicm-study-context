@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 13 May 2026 · 80 days to written · 154 days to oral*
-*217 Anki cards · 31 points covered · 23 in progress · 122 not started · 176 total*
+*216 Anki cards · 31 points covered · 23 in progress · 122 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -102,18 +102,19 @@ CNS locus coeruleus → ↓sympathetic outflow → sedation, ↓HR, ↓BP
 Pancreatic β cells → ↓insulin release
 Platelets → ↑aggregation (↓cAMP removes inhibitory brake)
 Vascular smooth muscle → vasoconstriction (minor)
-- **Q:** β1 receptor (Gs): locations and effects? (4 cardiac effects, + 1 other organ/effect)
+- **Q:** β1 receptor (Gs): Cardia effects? (4 effects, 6 mechanisms)
   **A:** Back:
 Gs → ↑cAMP → ↑PKA
 
 Heart:
 
-↑Choronotropy (HCN/If channels) (directly from cAMP)
-↑Inotropy (PKA -> ↑ICaL → ↑Ca²⁺ → ↑CICR)
-↑Lusitropy (PKA -> phospholamban → ↑SERCA → faster Ca²⁺ reuptake)
-↑Dromotropy (AV conduction) (PKA -> ↑ICaL in nodal tissue)
+↑Choronotropy (HCN/If channels) (directly from cAMP)↑Inotropy (two mechanisms):
+PKA → ↑ICaL → ↑Ca²⁺ influx → stronger trigger for CICRPKA → phospho-RyR → ↑SR Ca²⁺ release sensitivity
+↑Lusitropy (two mechanisms):
 
-JGA kidney: ↑renin release
+PKA → phospholamban → relieves SERCA inhibition → faster Ca²⁺ reuptake into SR
+PKA → troponin I → ↓myofilament Ca²⁺ sensitivity → faster cross-bridge detachment
+↑Dromotropy (AV conduction) (PKA -> ↑ICaL in nodal tissues
 - **Q:** β2 receptor (Gs): locations and effects? (7 organs)
   **A:** Gs → stimulate
 
@@ -122,7 +123,7 @@ Vascular smooth muscle (skeletal, coronary) → vasodilation
 Uterus → relaxation (tocolysis)
 Liver → glycogenolysis, gluconeogenesis
 Skeletal muscle → ↑K⁺ uptake → ↓serum K⁺
-Pancreatic β cells → ↑insulin release
+Pancreatic β cells → ↑insulin release (α2 dominates → ↓insulin secretion)
 Ciliary body → ↓aqueous humour → ↓IOP
 - **Q:** β3 receptor (Gs): locations and effects? (2 organs)
   **A:** Gs → stimulate
@@ -283,8 +284,10 @@ Dorsal respiratory group (“inspiratory group”)Generates primary inspiratory 
 Aortic bodies: aortic arch → vagus nerve (CN X)
 
 Stimuli:
-CarotidAortic↓PaO₂✓✓↑PaCO₂✓✓↓pH✓✗
+Carotid|  Aortic↓PaO₂✓     ✓↑PaCO₂✓     ✓↓pH✓     ✗
 Respond to O₂ tension not content — anaemia and CO poisoning do not stimulate them
+
+remember- vagus- recurrant laryngeal loops around aortic arch
 - **Q:** Central vs peripheral chemoreceptors — 4 key differences?
   **A:** CentralPeripheralLocationVentral medullaCarotid + aortic bodiesStimulusCSF H⁺ only↓PaO₂, ↑PaCO₂, ↓pHCO₂ response~80%~20%SpeedSlow (CO₂ must cross BBB)Fast (1–3s)
 Peripheral are the only receptors sensing PaO₂ and the only ones responding to fixed acid (↓pH)
@@ -329,7 +332,7 @@ Afferent: myelinated vagal fibres
 Clinical pearls:
 1. Responsible for the sigh/augmented breath every ~15 min — stimulated by microatelectasis
 2. Implicated in first breaths of the newborn
-- **Q:** J receptors (C-fibres) — location, stimuli, and reflex response?
+- **Q:** J receptors (C-fibres) — location, stimuli, afferent? and reflex response?
   **A:** Location: adjacent to pulmonary capillaries in alveolar walls
 Stimuli: interstitial oedema, histamine, bradykinin, prostaglandins
 Afferent: unmyelinated vagal C-fibres
@@ -941,7 +944,7 @@ Alveolar pressure is not a factor determining blood flow in this zone
 *Explain ventilation-perfusion matching and mismatching. Explain the effect of ventilation- perfusion mismatch on oxygen transfer and carbon dioxide elimination.*
 
 - **Q:** Why does V/Q mismatch impair oxygenation more than CO2 elimination? Include the role of each gas's dissociation curve and the concept of Q-limitation vs V-limitation.
-  **A:** O2 is Q-limited: (in pathology)
+  **A:** O2 is Q-limited:
 O2 is poorly soluble — almost entirely carried by Hb. High V/Q units have high PAO2 but Hb is already near-maximally saturated (flat upper portion of OHDC) — extra ventilation loads negligible additional O2. Blood from low V/Q units is significantly desaturated (steep lower portion of OHDC). When these streams mix, well-oxygenated blood cannot compensate for desaturated blood. Net result: low SaO2.
 
 CO2 is V-limited:
@@ -1347,7 +1350,7 @@ Measured in mg/L
 *Describe the principles of measuring oxygen concentration.*
 
 ## G: Cardiovascular System ⭐ HIGH YIELD
-*10/32 covered · 5 in progress · 56 cards*
+*10/32 covered · 5 in progress · 55 cards*
 
 ### ⬜ G1.i `not_covered` · 0/~4 cards
 *Describe the anatomy of the heart including the chambers, valves, pericardium, and the orientation of the heart.*
@@ -1362,7 +1365,7 @@ RV — continuous. Systolic pressure (~25 mmHg) stays below aortic pressure thro
 
 Tachycardia — diastole shortens preferentially → ↓LV perfusion time + ↑MVO₂ = double jeopardy. Subendocardium most vulnerable.
 
-### ✅ G1.iii `covered` · 10 cards
+### ✅ G1.iii `covered` · 9 cards
 *Describe the structure and functional significance of the excitatory, conductive, and contractile elements of the heart.*
 
 - **Q:** How does cardiac muscle function as a single unit despite being composed of individual cells? What structures enable this, and what are their distinct roles?
@@ -1413,18 +1416,6 @@ ATP has two functions: (ATP binds binding = actin and myosin detachment) and (Hy
 NCX (~20%) — forward mode: 3Na⁺ in, 1Ca²⁺ out. Driven by Na⁺ gradient. ↓Na⁺ gradient (e.g. digoxin) → ↓Ca²⁺ extrusion → ↑intracellular Ca²⁺
 
 Minor: sarcolemmal Ca²⁺-ATPase and mitochondrial uptake — not clinically significant
-- **Q:** Beta-1 stimulation activates PKA in the working cardiomyocyte. What are the 3 main phosphorylation targets, and what does each produce?
-(Myocyte, not SA or AV)
-  **A:** L-type Ca²⁺ channel: ↑opening probability → ↑Ca²⁺ entry during phase 2 → larger CICR trigger → ↑cross-bridge cycling → inotropy
-
-Phospholamban: PKA phosphorylates phospholamban → dissociates from SERCA → SERCA disinhibited → ↑Ca²⁺ reuptake → lusitropy. Also reloads SR → ↑next beat inotropy
-
-Troponin-I: phosphorylation → ↓Ca²⁺ affinity of TnC → Ca²⁺ dissociates faster → cross-bridges detach sooner → lusitropy
-
-Also: myosin phosphorylation → ↑cross-bridge cycling rate → inotropy + speed
-
-Net effect: ↑contractility + ↑relaxation rate → ↑emptying and filling at high heart rates
-Compare to other: B1 effect of cAMP directly acting on HCN, or B1 PKA-> Ltype Ca dormotropy in AV
 - **Q:** What is the mechanism by which digoxin increases myocardial contractility?
   **A:** Digoxin inhibits Na/K-ATPase → ↑intracellular Na⁺ → ↓Na⁺ gradient → NCX forward mode impaired → ↓Ca²⁺ extruded → ↑intracellular Ca²⁺ → ↑SR Ca²⁺ loading → stronger CICR → ↑contractility
 
@@ -1694,7 +1685,7 @@ PH = mPAP >20 mmHg | PCWP >15 mmHg = post-capillary (left heart disease).
 
 5 determinants:
 1. Sympathetic tone — B1 — increased cAMP — PKA phosphorylates L-type Ca2+ channels — increased Ca2+ influx — increased SR loading — increased contractility
-2. Bowditch effect (heart rate) — faster rate — less time for NCX Ca2+ extrusion — Ca2+ accumulates in SR — increased contractility
+2. Bowditch effect (heart rate) — faster rate → ↑intracellular Na⁺ (ATPase can't keep up) → ↓NCX driving force → less Ca²⁺ extruded → ↑SR Ca²⁺ loading → ↑contractility
 3. Anrep effect (afterload) —  sustained ↑afterload → ↑wall stress → stretch-activated signalling → ↑SR Ca²⁺ loading → ↑CICR → ↑contractility. Partially offsets ↓SV."
 4. Drugs — positive: digoxin, catecholamines, milrinone. Negative: beta blockers, calcium channel blockers
 5. Disease/ischaemia — decreased ATP impairs SR Ca2+ handling. Acidosis decreases myofilament Ca2+ sensitivity. Heart failure impairs contractility reserve.
@@ -1898,8 +1889,7 @@ Clinical implication: ScvO2 overestimates SvO2 in shock — falsely reassuring; 
 *Explain the physiological consequences of intermittent positive pressure ventilation, positive end-expiratory pressure (see also F10 i.) and the Valsalva manoeuvre.*
 
 - **Q:** Define PEEP and iPEEP — and how does external PEEP affect iPEEP?
-  **A:** PEEP: positive airway pressure maintained at end-expiration; externally applied
-Distinct from CPAP (positive pressure throughout entire cycle) and from spontaneous breathing (airway pressure returns to zero at end-expiration)
+  **A:** PEEP: positive airway pressure maintained at end-expiration; externally applied.
 
 iPEEP (intrinsic/auto-PEEP): unintentional positive end-expiratory pressure from gas trapping — expiration incomplete before next breath; occurs with ↑RR, prolonged expiratory time, ↑airway resistance, ↓compliance
 
