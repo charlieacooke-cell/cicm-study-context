@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 14 May 2026 · 80 days to written · 154 days to oral*
-*234 Anki cards · 32 points covered · 23 in progress · 121 not started · 176 total*
+*235 Anki cards · 32 points covered · 23 in progress · 121 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -1369,7 +1369,7 @@ Measured in mg/L
 *Describe the principles of measuring oxygen concentration.*
 
 ## G: Cardiovascular System ⭐ HIGH YIELD
-*11/32 covered · 5 in progress · 72 cards*
+*11/32 covered · 5 in progress · 73 cards*
 
 ### ⬜ G1.i `not_covered` · 0/~4 cards
 *Describe the anatomy of the heart including the chambers, valves, pericardium, and the orientation of the heart.*
@@ -1779,25 +1779,9 @@ Ejection fraction
 
 EF just measures how much of the EDV gets ejected. It's load-dependent in both directions — high afterload means the ventricle can't empty as well (reduced EF without reduced contractility), and low afterload flatters EF. The preserved EF point on your card is clinically important: in diastolic dysfunction the problem is the ventricle won't fill properly, so EDV is low and SV is low, but the ratio is maintained — EF looks normal while the patient has heart failure.
 
-### ✅ G3.iv `covered` · 4/~3 cards
+### ✅ G3.iv `covered` · 5/~3 cards
 *Describe myocardial oxygen demand and supply and the conditions that may alter each.*
 
-- **Q:** What are the three determinants of myocardial oxygen consumption (MVO2), and what is the normal resting value?
-  **A:** Determinants:
-1. Wall tension (largest contributor ~70%)
-2. Heart rate
-3. Contractility
-
-Normal MVO2: ~8–10 mL O2/100g/min at rest
-- **Q:** Why is wall tension the largest determinant of MVO2, and what governs it?
-  **A:** Wall tension = afterload = ventricular wall stress during systole
-Governed by Laplace: T = (P × r) / 2h
-P = transmural pressure, r = radius, h = wall thickness
-
-↑afterload (↑P or ↑r) → ↑wall tension → ↑MVO2
-↑wall thickness (hypertrophy) → ↓wall tension → initially compensatory
-
-Dilated cardiomyopathy: ↑r dominates → high wall tension despite low ejection pressures → high MVO2
 - **Q:** What is the myocardial oxygen extraction ratio at rest, and what is its key consequence for O2 supply?
   **A:** Myocardial OER: ~70–75% at rest (coronary sinus SaO2 ~25–30%)
 cf. whole body OER ~25% at rest
@@ -1816,6 +1800,48 @@ CPP: ~60 mmHg
 ↑LVEDP (heart failure, volume overload) → ↓CPP from below
 ↓DBP (vasodilation, aortic regurgitation) → ↓CPP from above
 Tachycardia: ↓diastolic time → ↑LVEDP + ↓DBP → CPP squeezed from both ends
+- **Q:** List the determinants of MVO2 with approximate percentage contributions
+  **A:** Internal work (~85-90% of MVO2):
+Wall tension 30-40% — pressure work; energy to generate systolic force without ejecting volume
+Heart rate 15-25% — more beats = more tension-generating cycles
+Contractility 10-15% — rate and magnitude of tension development
+Basal metabolism ~25% — electrical activation, ion pumping, cell maintenance
+
+External work (~10-15% of MVO2):
+Volume work — energy to actually eject blood
+= pressure-volume work (MAP × SV) + kinetic work
+Minor at rest; relatively more important at high CO
+
+Normal MVO2: 8-10 mL O2/100g/min
+- **Q:** Why does ↑wall tension ↑MVO2? What governs wall tension?
+  **A:** Mechanism:
+Wall tension = force myofibres must sustain throughout systole to maintain ventricular pressure
+↑tension → more cross-bridge cycling → more ATP hydrolysis → ↑O2 consumption
+Unlike HR (which scales cycles/min), wall tension affects the O2 cost per beat
+
+Governed by Laplace: T = (P × r) / 2h
+P = transmural pressure, r = ventricular radius, h = wall thickness
+
+Key implications:
+↑afterload (↑P) → ↑wall tension → ↑MVO2
+↑preload (↑r) → ↑wall tension, but less than afterload (volume and radius are not proportional)
+↑wall thickness (hypertrophy) → ↓wall tension → initially compensatory
+Dilated cardiomyopathy: ↑r dominates → high wall tension despite low ejection pressures → inefficient, high MVO2
+- **Q:** How does tachycardia affect myocardial O2 supply and demand?
+  **A:** ↑ Demand:
+↑HR → more tension-generating cycles/min → proportional ↑MVO2
+Sympathetic drive causing tachycardia also ↑contractility → additional ↑MVO2
+
+↓ Supply:
+LV perfusion is diastolic only — systolic intramyocardial pressure (~120 mmHg) collapses transmural gradient
+↑HR → diastole shortens preferentially → ↓LV perfusion time
+CPP = aortic DBP − LVEDP; tachycardia also ↓DBP and ↑LVEDP → CPP squeezed from both ends
+Subendocardium most vulnerable — longest transmural distance, highest wall stress
+Cannot compensate by ↑O2 extraction — myocardial OER already ~70-75% at rest
+
+RV unaffected: systolic RV pressure (~25 mmHg) stays below aortic pressure → continuous perfusion throughout cycle
+
+Net effect: ↑demand + ↓supply simultaneously = double jeopardy for LV subendocardium
 
 ### ✅ G3.v `covered` · 6/~5 cards
 *Describe and explain cardiac output curves, vascular function curves and their correlation.*
