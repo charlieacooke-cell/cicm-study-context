@@ -1,5 +1,5 @@
 # CICM Part One — Full Study Context
-*Generated 12 May 2026 · 82 days to written · 156 days to oral*
+*Generated 13 May 2026 · 80 days to written · 154 days to oral*
 *217 Anki cards · 31 points covered · 23 in progress · 122 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
@@ -606,7 +606,7 @@ Stimulated by:
 Without surfactant, smaller alveoli require greater pressure to remain open than larger ones. At any given distending pressure, smaller alveoli are inherently less stable — once they begin to collapse, r falls, required pressure rises further, collapse becomes self-reinforcing. Gas displaced into larger alveoli.
 
 Mechanism:
-Surfactant reduces surface tension proportionally with surface area
+Surfactant reduces surface tension proportionally with smaller surface area
 - Alveolus shrinks → DPPC molecules pack more densely → T falls → required opening pressure doesn't rise as LaPlace predicts
 - Stabilises alveoli of different sizes by abolishing the instability gradient
 
@@ -1386,7 +1386,7 @@ One nucleus per cell — functional but not true syncytium
 - **Q:** Troponin has 3 subunits. Name each, and its function/binding
   **A:** Troponin-C: binds Ca²⁺ → conformational change → tropomyosin shifts → exposes myosin binding sites on actin → cross-bridge formation
 
-Troponin-I: inhibitory — Binds Actin, keeps tropomyosin blocking the myosin binding site on actin at rest. PKA phosphorylation → ↓Ca²⁺ affinity of TnC → faster Ca²⁺ release → lusitropy
+Troponin-I: inhibitory — acts on Actin, keeps tropomyosin blocking the myosin binding site on actin at rest. PKA phosphorylation → ↓Ca²⁺ affinity of TnC → faster Ca²⁺ release → lusitropy
 
 Troponin-T: anchors troponin complex to tropomyosin
 
@@ -1920,8 +1920,9 @@ Barotrauma/volutrauma
 
 Healthy lung: already recruited at baseline → PEEP causes overdistension with minimal recruitment benefit
 - **Q:** How does PEEP affect venous return and the right heart?
-  **A:** Mechanism: ↑ITP → ↑atmospheric RAP → ↓(MSFP − RAP) gradient → ↓venous return
-Graphically: cardiac output curve shifts right (higher atmospheric RAP needed for same transmural filling pressure); vascular curve unchanged (MSFP and venous resistance are extrathoracic)
+  **A:** Mechanism: 
+↑ITP → ↑atmospheric RAP → ↓(MSFP − RAP) gradient → ↓venous return
+Graphically: cardiac output curve shifts right (higher measured RAP needed for same transmural filling pressure); vascular curve unchanged (MSFP and venous resistance are extrathoracic)
 New equilibrium: ↑RAP, ↓CO
 
 Right heart:
@@ -2365,8 +2366,9 @@ Respiratory context:
 Mechanical opposition to oscillating air flow. 
 Incorporates airway resistance, and Reactance (which has elastic component, and inertial (non elastic component)
 - **Q:** Define resonance in the context of an arterial line system
-  **A:** Amplification of signal components whose frequency approaches the natural frequency of the system.
-The arterial line is a driven harmonic oscillator — cardiac pulsations drive it. When harmonics of the arterial waveform approach the system's natural frequency, those components are amplified rather than faithfully transmitted.
+  **A:** Resonance: The phenomenon where a system oscillates with maximum amplitude when driven at its natural frequency, because energy is added in phase with the system's own oscillation.
+
+In the arterial line context: The catheter-tubing-transducer system is a fluid-filled harmonic oscillator with its own natural frequency (typically 10–20 Hz for a standard system). The arterial waveform is not a pure sine wave — it contains a fundamental frequency (heart rate, ~1–2 Hz) plus harmonics at multiples of that frequency. When any of those harmonics approach the system's natural frequency, that component is disproportionately amplified → overshoot of the displayed waveform → falsely high systolic, falsely low diastolic, mean relatively preserved.
 - **Q:** Define the natural frequency of an arterial line system
   **A:** The frequency at which the fluid-filled system oscillates freely when disturbed and left alone.
 Typical clinical systems: 10–15 Hz.
