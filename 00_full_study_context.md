@@ -1612,10 +1612,11 @@ Lost in WPW — accessory pathway bypasses AV node → AF conducts at atrial rat
 - **Q:** Re-entry arrhythmia — 2 requirements and how the normal heart prevents it?
   **A:** Two requirements:
 1. Unidirectional block — heterogeneous refractoriness in adjacent tissue
-2. Slow conduction — wavefront must take long enough that returning tissue has recovered
+2. Slow conduction — wavefront travels slowly enough (or circuit is long enough) that by the time it returns, previously blocked tissue has recovered excitability — allowing re-excitation
 
 Wavelength = conduction velocity × ERP
-Wavelength must exceed circuit path length for re-entry to sustain
+For re-entry to sustain: circuit path length must exceed wavelength — wavefront returns to recovered tissue
+For re-entry to terminate: wavelength must exceed circuit — wavefront returns to still-refractory tissue → extinguishes
 
 Normal heart prevents re-entry:
 Long ERP relative to conduction velocity → long wavelength → wavefront arrives back at refractory tissue → circuit extinguishes
