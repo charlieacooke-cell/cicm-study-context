@@ -1,5 +1,5 @@
 # CICM Part One — Full Study Context
-*Generated 13 May 2026 · 80 days to written · 154 days to oral*
+*Generated 14 May 2026 · 80 days to written · 154 days to oral*
 *216 Anki cards · 31 points covered · 23 in progress · 122 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
