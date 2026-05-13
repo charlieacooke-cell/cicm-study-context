@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
 *Generated 14 May 2026 · 80 days to written · 154 days to oral*
-*216 Anki cards · 31 points covered · 23 in progress · 122 not started · 176 total*
+*234 Anki cards · 32 points covered · 23 in progress · 121 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -39,7 +39,7 @@
 *Describe the pharmacokinetics of drugs in the epidural and subarachnoid space.*
 
 ## C: Pharmacodynamics ⭐ HIGH YIELD
-*1/5 covered · 0 in progress · 22 cards*
+*1/5 covered · 0 in progress · 23 cards*
 
 ### ⬜ C.i `not_covered` · 0 cards
 *Explain the concept of drug action with respect to receptor theory.*
@@ -50,7 +50,7 @@
 ### ⬜ C.iii `not_covered` · 0 cards
 *Explain the concept of drug action with respect to: enzyme interactions physico-chemical interactions*
 
-### ✅ C.iv `covered` · 22 cards
+### ✅ C.iv `covered` · 23 cards
 *Explain receptor activity with regard to: ion fluxes second messengers and G proteins nucleic acid synthesis regulation of receptor number and activity structural relationships for receptors and ligands*
 
 - **Q:** Gs signalling pathway: enzyme, second messenger, kinase?
@@ -103,18 +103,21 @@ Pancreatic β cells → ↓insulin release
 Platelets → ↑aggregation (↓cAMP removes inhibitory brake)
 Vascular smooth muscle → vasoconstriction (minor)
 - **Q:** β1 receptor (Gs): Cardia effects? (4 effects, 6 mechanisms)
-  **A:** Back:
-Gs → ↑cAMP → ↑PKA
+  **A:** Gs → ↑cAMP → ↑PKA
 
-Heart:
+↑Chronotropy
+cAMP directly binds HCN channels → ↑If → steeper phase 4 slope → ↑HR
 
-↑Choronotropy (HCN/If channels) (directly from cAMP)↑Inotropy (two mechanisms):
-PKA → ↑ICaL → ↑Ca²⁺ influx → stronger trigger for CICRPKA → phospho-RyR → ↑SR Ca²⁺ release sensitivity
-↑Lusitropy (two mechanisms):
+↑Inotropy (3 mechanisms)
+PKA → ↑ICa(L) → ↑Ca²⁺ influx → stronger trigger for CICR
+PKA → phospho-RyR → ↑SR Ca²⁺ release sensitivity
 
+↑Lusitropy (2 mechanisms)
 PKA → phospholamban → relieves SERCA inhibition → faster Ca²⁺ reuptake into SR
 PKA → troponin I → ↓myofilament Ca²⁺ sensitivity → faster cross-bridge detachment
-↑Dromotropy (AV conduction) (PKA -> ↑ICaL in nodal tissues
+
+↑Dromotropy
+PKA → ↑ICa(L) in nodal tissue → faster AV conduction
 - **Q:** β2 receptor (Gs): locations and effects? (7 organs)
   **A:** Gs → stimulate
 
@@ -196,6 +199,9 @@ GI smooth muscle → ↑motility
 Bladder detrusor → contraction → voiding
 Vascular endothelium → NO → vasodilation
 Pupil sphincter → miosis
+- **Q:** β1 receptor (Gs): non-cardiac effects?
+  **A:** JGA kidney: ↑renin release → ↑RAAS → ↑Na⁺ retention, ↑BP
+Liver: ↑glycogenolysis → ↑blood glucose (minor compared to β2)
 
 ### ⬜ C.v `not_covered` · 0 cards
 *Explain the Law of Mass Action and describe the affinity and dissociation constants.*
@@ -268,7 +274,20 @@ Normally the ISB lies at the 4th-5th generation sub-segmental bronchi. Shifted l
   **A:** Located in reticular formation → beneath floor of 4th ventricle
 Dorsal respiratory group (“inspiratory group”)Generates primary inspiratory drive Producing a ramp-like inspiratory patternTransmits signals to diaphragm for 2 seconds Ceases abruptly for 3 seconds to allow expiration to occurVentral respiratory group (“expiratory group”)Silent during Tv breathing (as expiration is passive)↑ activity with forced expirationPre-Botzinger ComplexPacemakerResponsible for initiaing rhymic respirationConsidered the respiratory pacemaker
 - **Q:** Which respiratory centers are located in the Pons?
-  **A:** Pneumotaxic centre“Fine tunes” respiratory rhythm by inhibiting DRGcauses ↓ inspiratory volume↓ inspiratory durationresults in ↑ RRApneustic centreActs to promote inspiration by stimulating DRG
+  **A:** 1. Pneumotaxic centre (upper pons)
+Inhibits DRG → switches off inspiration
+↓ inspiratory volume
+↓ inspiratory duration
+↑ RR
+Receives lung stretch receptor input (Hering-Breuer) — peripheral inflation signal feeds into central switch-off
+
+2. Apneustic centre (lower pons)
+Stimulates DRG → promotes and prolongs inspiration
+
+Opponent relationship:
+Pneumotaxic dominates under normal conditions — keeps breaths short and regular
+Pneumotaxic ablation → apneustic centre unopposed → prolonged inspiratory gasp → apneustic breathing
+Apneustic ablation alone → slower deeper breathing
 - **Q:** Discuss the anatomical components to the central control of ventilation.
   **A:** BrainstemMedulla (DRG, VRG, Pre-Botzinger Complex)Pons (Pneumotaxic, Apneustic)External inputsSensors from lungs/airways/chemoreceptorsCortexCan override brainstem function and alter breathing patternsLimbic/Hypothalamic SystemsAlters breathing patters depending on affective states (fear/anxiety/pain)
 - **Q:** To what do central (respiratory) chemoreceptors respond?
@@ -1350,7 +1369,7 @@ Measured in mg/L
 *Describe the principles of measuring oxygen concentration.*
 
 ## G: Cardiovascular System ⭐ HIGH YIELD
-*10/32 covered · 5 in progress · 55 cards*
+*11/32 covered · 5 in progress · 72 cards*
 
 ### ⬜ G1.i `not_covered` · 0/~4 cards
 *Describe the anatomy of the heart including the chambers, valves, pericardium, and the orientation of the heart.*
@@ -1557,7 +1576,7 @@ Treatment:
   **A:** EADDADTimingPhase 2 or 3Phase 4MechanismICa(L) reactivation during prolonged APSR Ca²⁺ overload → NCX → ItiHeart rateWorse at slow ratesWorse at fast ratesECGLong QTNormal QTConsequenceTorsades de pointesDigoxin toxicity VT, CPVTTreatmentMg, overdrive pacing, remove causeOverdrive pacing, DigiFabCausesHypokalaemia, long QT, 
 IKr blockers, bradycardiaDigoxin, catecholamines, heart failure
 
-### ✅ G2.ii `covered` · 3 cards
+### ✅ G2.ii `covered` · 4 cards
 *Describe the normal processes of cardiac excitation and electrical activity.*
 
 - **Q:** Cardiac conduction pathway: sequence and conduction velocity at each step?
@@ -1590,9 +1609,45 @@ Absolute refractory period limits impulse transmission to ventricles
 In AF (atrial rate 350-600/min) — only fraction conducts through; ventricular rate typically 100-160/min (variable with autonomic tone and age)
 Exploited by rate-control drugs: beta blockers, diltiazem, verapamil, digoxin
 Lost in WPW — accessory pathway bypasses AV node → AF conducts at atrial rates → VF risk
+- **Q:** Re-entry arrhythmia — 2 requirements and how the normal heart prevents it?
+  **A:** Two requirements:
+1. Unidirectional block — heterogeneous refractoriness in adjacent tissue
+2. Slow conduction — wavefront must take long enough that returning tissue has recovered
 
-### ✅ G2.iii `covered` · 0 cards
+Wavelength = conduction velocity × ERP
+Wavelength must exceed circuit path length for re-entry to sustain
+
+Normal heart prevents re-entry:
+Long ERP relative to conduction velocity → long wavelength → wavefront arrives back at refractory tissue → circuit extinguishes
+Homogeneous repolarisation → no dispersion → no unidirectional block substrate
+Fibrous skeleton → forces conduction through AV node only
+
+### ✅ G2.iii `covered` · 2 cards
 *Correlate the mechanical events of the cardiac cycle with the physical, electrical, and ionic events.*
+
+- **Q:** Surface ECG to cardiac mechanical events: key timing anchors?
+  **A:** P wave — atrial depolarisation → atrial systole (atrial a wave) → final ventricular filling
+
+PR interval — AV nodal delay → atrial emptying completes
+
+QRS onset → AV valves close → S1 → IVC begins
+
+ST segment — phase 2 plateau → ventricular ejection
+
+T wave peak → aortic/pulmonary valves close → S2 → IVR begins
+
+T wave end → LV pressure TP segment — diastole (filling + diastasis)
+
+Three anchors to get right:
+QRS onset = S1 + IVC begins
+T wave peak = S2 + IVR begins
+T wave end = AV valves open + filling begins
+- **Q:** Drug effects on ECG intervals — PR, QRS, QTc?
+  **A:** IntervalReflectsProlonged byPRAV nodal conductionClass II, IV, digoxin (vagomimetic), amiodarone, adenosineQRSVentricular conduction velocityClass I (all), TCAs, hyperkalaemia, amiodaroneQTc ↑Ventricular APDClass III (amiodarone, sotalol), Class Ia, SSRIs, antipsychoticsQTc ↓Shortened ventricular APDClass Ib, Class IV (verapamil), digoxin, hypercalcaemia
+One-line summary:
+PR = AV node = Ca²⁺ channels + vagal
+QRS = ventricular conduction = Na⁺ channels
+QTc = ventricular APD = K⁺ channels (repolarisation)
 
 ### 🟡 G3.i `partial` · 4 cards
 *Explain the Frank-Starling mechanism and its relationship to excitation-contraction coupling.*
@@ -2006,8 +2061,207 @@ GU: adrenaline: tocolysis (β2) low dose → ↓uteroplacental flow (α1) high d
 ### ⬜ G7.ii `not_covered` · 0 cards
 *Understand the pharmacology of anti-hypertensive drugs.*
 
-### ⬜ G7.iii `not_covered` · 0/~5 cards
+### ✅ G7.iii `covered` · 14/~5 cards
 *Understand the pharmacology of anti-arrhythmic drugs.*
+
+- **Q:** Class I antiarrhythmics — how do they prevent arrhythmia?
+  **A:** Mechanism: Block inactivated Na⁺ channels (use-dependent) → ↓ventricular phase 0 dV/dt → ↓conduction velocity
+
+How this terminates arrhythmia:
+Use-dependent block — preferentially affects fast-firing ectopic foci while sparing normal sinus rhythm
+At fast rates: ↓conduction velocity → wavefront arrives at recovered tissue too slowly → can produce bidirectional block → re-entry circuit terminates
+
+Caveat:
+↓CV without ↑ERP → ↓wavelength → can sustain rather than terminate re-entry in diseased tissue
+Class Ic (flecainide) — CAST trial showed ↑mortality post-MI from this mechanism
+- **Q:** Class II antiarrhythmics — how do they prevent arrhythmia?
+  **A:** Mechanism: β-blockade → ↓cAMP → ↓PKA
+
+How this terminates arrhythmia:
+1. Removes sympathetic triggers:
+- ↓ICa(L) phosphorylation → ↓SR Ca²⁺ load → ↓DADs
+- ↓If → ↓abnormal automaticity in Purkinje fibres
+- ↓HR-driven ERP shortening → ↑wavelength
+
+2. ↑nodal ERP:
+- ↓AV nodal conduction → rate limits SVT and AF
+- ↓SA automaticity → ↓triggers
+
+Particularly useful in sympathetically-driven arrhythmias — post-MI, perioperative, sepsis-associated AF
+- **Q:** Class III antiarrhythmics — how do they prevent arrhythmia?
+  **A:** Mechanism: Block IKr/IKs → ↓phase 3 repolarisation → ↑APD → ↑ERP all cardiac tissue
+
+How this terminates arrhythmia:
+↑ERP → ↑wavelength (CV × ERP)
+Wavefront returning around re-entry circuit finds refractory tissue → circuit extinguishes
+
+Additional effects:
+↓automaticity
+↓ectopy
+↓defibrillation energy required
+
+Risk — heterogeneous APD prolongation creates dispersion of repolarisation → vulnerable window widens → TdP
+Amiodarone is exception — homogeneous APD prolongation across myocardial layers
+- **Q:** Class IV antiarrhythmics — how do they prevent arrhythmia?
+  **A:** Mechanism: Block L-type Ca²⁺ channels (verapamil, diltiazem)
+
+How this terminates arrhythmia:
+Nodal tissue is ICa(L)-driven → ↓phase 0 dV/dt → ↓nodal conduction → ↑nodal ERP
+
+Breaks AV-node-dependent re-entry circuits (AVNRT, AVRT) — AV node becomes refractory when circuit returns
+Rate control in AF/flutter — fewer impulses transmitted to ventricles
+
+Also: ↓ICa(L) in ventricular myocytes → ↓SR Ca²⁺ loading → ↓DADs
+
+No effect on ventricular conduction (INa-driven, not ICa(L)) — not useful for ventricular arrhythmias
+- **Q:** Vaughan-Williams classification — 4 classes + others, mechanism and one example?
+  **A:** ClassMechanismExampleINa⁺ channel blockLignocaine, flecainideIIβ-blockadeMetoprololIIIK⁺ channel blockAmiodarone, sotalolIVCa²⁺ channel blockVerapamil, diltiazemOtherVariousDigoxin, adenosine, magnesium
+Class I subclasses distinguished by Na⁺ channel dissociation rate:
+Ia — intermediate · Ib — fast · Ic — slow
+- **Q:** Amiodarone — Vaughan-Williams classes and ECG effects?
+  **A:** Amiodarone has properties of all 4 classes:
+
+Class III (primary) — blocks IKr/IKs → ↑APD → ↑ERP all tissue → interrupts re-entry
+Class I — blocks inactivated INa → ↓ventricular dV/dt → ↓conduction velocity
+Class II — non-competitive β-blockade → ↓SA automaticity, ↓AV conduction (bradycardia atropine-resistant)
+Class IV — ↓ICa(L) → ↓SA automaticity, ↓AV conduction
+
+ECG effects:
+↑PR — Class II + IV
+↑QRS (mild) — Class I
+↑QTc — Class III
+↓HR
+
+Low TdP risk despite ↑QTc: homogeneous APD prolongation across myocardial layers → ↓dispersion of repolarisation; ICa(L) block → ↓EADs
+- **Q:** Amiodarone pharmacokinetics — ADME?
+  **A:** Absorption:
+Bioavailability ~50% — poor and variable
+IV: must be via central line (Tween-80 vehicle irritant to peripheral veins)
+Loading dose required: 5 mg/kg IV over 1 hour, then 10–15 mg/kg/day
+
+Distribution:
+Protein binding >95%
+Vd ~70 L/kg — massive accumulation in fat, muscle, liver, lung, thyroid
+Loading dose required to saturate tissue stores
+
+Metabolism:
+Hepatic via CYP3A4 → desethylamiodarone (active metabolite)
+Inhibits CYP3A4 and CYP2C9 (multiple interactions)
+
+Elimination:
+Biliary/faecal predominantly
+Also skin and lacrimal secretions
+<1% renal — no renal dose adjustment
+Not dialysable
+Half-life 40–55 days — effects and toxicity persist months after cessation
+- **Q:** Amiodarone adverse effects — by system?
+  **A:** Mnemonic — BITCH:
+B — Blue/grey skin (slate facial discolouration, photosensitivity)
+I — Interstitial lung disease (pneumonitis/fibrosis — 5–10% at 3 years, 10% mortality; ↑risk with high FiO₂)
+T — Thyroid — hypo or hyperthyroidism (37% iodine by weight; inhibits T4→T3)
+C — Corneal microdeposits (universal, usually asymptomatic); rare optic neuropathy
+H — Hepatic — transaminitis, cirrhosis with long-term use
+
+Cardiovascular:
+Bradycardia — resistant to atropine (non-competitive β-blockade)
+Hypotension with IV bolus — α-blockade
+
+Neurological: peripheral neuropathy, tremor, sleep disturbance, vivid dreams
+
+Effects increase with doses >400 mg/day and duration of treatment
+- **Q:** Amiodarone drug interactions — mechanisms and key examples?
+  **A:** CYP3A4 inhibition:
+↑Statins (rhabdomyolysis), CCBs, other antiarrhythmics
+
+CYP2C9 inhibition:
+↑Warfarin levels → ↑INR — reduce warfarin dose 30–50%
+
+P-glycoprotein inhibition + tissue displacement:
+↑Digoxin levels — halve digoxin dose
+
+Bidirectional:
+Phenytoin — amiodarone ↑phenytoin levels; phenytoin ↓amiodarone levels
+
+CYP inducers reducing amiodarone:
+Rifampicin, carbamazepine, phenytoin → ↓amiodarone levels → loss of efficacy
+
+Pharmacodynamic:
++Beta blockers/CCBs → additive AV block
++QT-prolonging drugs (sotalol) → ↑TdP risk
++High FiO₂ → ↑pulmonary toxicity
+- **Q:** Digoxin mechanism of action — 2 distinct pathways?
+  **A:** 1. Direct (inotropy):
+Inhibits Na⁺/K⁺ ATPase → ↑intracellular Na⁺ → NCX reverses (3Na⁺ out, 1Ca²⁺ in) → ↑intracellular Ca²⁺ → ↑SR Ca²⁺ loading → ↑CICR → ↑contractility
+
+2. Indirect (vagomimetic — rate control):
+↑Vagal tone → ↑ACh at M₂ receptors → ↑IKAch → ↓SA automaticity, ↓AV nodal conduction → ↑AV nodal ERP → rate control in AF
+
+Clinical implication of vagomimetic mechanism:
+Works well at rest
+Loses efficacy with high sympathetic tone (sepsis, exercise, critical illness)
+
+Toxicity (same mechanism, excessive):
+Excessive Ca²⁺ → SR overload → spontaneous CICR → NCX forward mode → inward current → DAD → triggered arrhythmia
+- **Q:** Digoxin pharmacokinetics — ADME?
+  **A:** Absorption:
+Bioavailability 70–80% (tablets); higher with elixir
+PO or IV
+Loading: 0.75–1.5 mg in divided doses over 24 hours
+
+Distribution:
+Protein binding 25% — low
+Vd ~7 L/kg — accumulates in muscle (Na⁺/K⁺ ATPase rich tissue)
+Not dialysable despite low protein binding (tissue-bound)
+
+Metabolism:
+Minimal hepatic — largely unchanged
+
+Elimination:
+Renal — 50–70% unchanged in urine
+Half-life 36–48 hours (longer in renal impairment)
+
+Therapeutic range: 0.5–2.0 nmol/L (narrow TI)
+Hypokalaemia ↑toxicity — K⁺ competes with digoxin at ATPase binding site
+Antidote: digoxin-specific antibody fragments (DigiFab)
+- **Q:** Digoxin ECG effects — intervals and morphology?
+  **A:** Vagomimetic effects (M₂ → IKAch):
+↑PR interval — ↑AV nodal ERP
+↓HR — ↓SA automaticity
+
+Direct membrane effects:
+↓QTc — shortens ventricular APD directly
+ST depression — scooped/sagging morphology
+Reverse tick or Salvador Dali moustache appearance — characteristic but not specific (not ischaemia)
+
+At toxic levels:
+Any arrhythmia
+Bradycardia, heart block (vagomimetic excess)
+Accelerated junctional rhythm
+Bidirectional VT — almost pathognomonic of digoxin toxicity
+AF with regularisation (CHB with junctional escape)
+- **Q:** Sotalol — class, mechanism, PK, and why TdP risk is real unlike amiodarone?
+  **A:** Racemic mixture:
+L-sotalol: Class II (β-blockade) + Class III (K⁺ block)
+D-sotalol: pure Class III
+
+Mechanism:
+Class III — blocks IKr → ↑APD, ↑ERP all tissue → ↑QTc
+Class II — ↓SA automaticity, ↓AV conduction → ↑PR, ↓HR
+
+PK (ADME):
+A: Bioavailability >90% (PO or IV)
+D: Zero protein binding
+M: Not metabolised
+E: Excreted entirely unchanged in urine; half-life ~12 hours; renal dose adjustment essential
+
+TdP risk real (unlike amiodarone):
+Heterogeneous APD prolongation — preferentially affects M cells with high IKr expression → ↑dispersion of repolarisation → re-entry substrate
+No ICa(L) block — no suppression of EADs (the TdP trigger)
+
+SWORD trial: pure D-sotalol increased mortality post-MI — Class III without Class II protection is proarrhythmic
+- **Q:** Class I antiarrhythmic subclasses — compare Ia, Ib, Ic?
+  **A:** IaIbIcDissociationIntermediateFastSlowUse-dependenceModerateHighLow (persistent)dV/dt↓ (moderate)↓ (minimal at rest)↓↓↓APD↑ (also IKr block)↓UnchangedExamplesQuinidine, procainamideLignocaine, mexiletineFlecainideUseLargely historicalAcute VT, ischaemiaAF in structurally normal heartRiskTdPLow at therapeutic doseRe-entry in diseased myocardium (CAST)
+Ib selective for ischaemic tissue (binds inactivated channels — more inactivation in depolarised ischaemic cells)
 
 ### ⬜ G7.iv `not_covered` · 0 cards
 *Understand the pharmacology of anti-anginal drugs.*
