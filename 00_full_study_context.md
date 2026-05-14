@@ -1,6 +1,6 @@
 # CICM Part One — Full Study Context
-*Generated 14 May 2026 · 80 days to written · 154 days to oral*
-*235 Anki cards · 32 points covered · 23 in progress · 121 not started · 176 total*
+*Generated 14 May 2026 · 79 days to written · 153 days to oral*
+*246 Anki cards · 32 points covered · 24 in progress · 120 not started · 176 total*
 
 > **Coverage key:** `covered` = marked done by Claude session · `partial` = has Anki cards but not marked done · `not_covered` = no cards, not started
 > **Card counts:** "3/~5" means 3 cards exist, target is ~5. A "covered" point with few cards may need review.
@@ -249,7 +249,7 @@ Liver: ↑glycogenolysis → ↑blood glucose (minor compared to β2)
 *Describe the composition and control of intracellular fluid and the mechanisms by which cells maintain homeostasis and integrity.*
 
 ## F: Respiratory System ⭐ HIGH YIELD
-*18/55 covered · 15 in progress · 102 cards*
+*18/55 covered · 16 in progress · 103 cards*
 
 ### 🟡 F1.i `partial` · 2/~4 cards
 *Describe the structure and function of the upper airway, lower airway, and alveolus.*
@@ -342,7 +342,7 @@ Clinical: threshold >1L in awake adults — not active at normal TV. Under anaes
 Effect: ↓ duration of expiration → promotes earlier next inspiration
 
 Opposite of inflation reflex. Prevents end-expiratory atelectasis. More prominent under anaesthesia and in neonates.
-- **Q:** Rapidly adapting (irritant) receptors — location, stimulus, response, and 2 clinical pearls?
+- **Q:** Rapidly adapting (irritant) receptors — location, stimulus, afferent, response, and 2 clinical pearls?
   **A:** Location: epithelial cells of large airways (e.g. carina)
 Stimulus: rate of change of lung volume; chemical irritants (smoke, noxious gases)
 Response: rapid shallow breathing
@@ -1293,8 +1293,22 @@ H⁺ buffered by deoxyHb inside RBC — deoxyHb is a better proton acceptor than
 ### ⬜ F9.i `not_covered` · 0/~5 cards
 *Describe the measurement and interpretation of pulmonary function tests.*
 
-### ⬜ F9.ii `not_covered` · 0 cards
+### 🟡 F9.ii `partial` · 1 cards
 *Describe the carbon dioxide and oxygen response curves and how these may be used to assess the control of breathing.*
+
+- **Q:** End-organ effects of PEEP — renal, hepatic, CNS?
+  **A:** Renal:
+↓CO → ↓renal blood flow → ↓GFR → ↓urine output
+↑renal venous pressure → further ↓RBF
+↓atrial stretch → ↓ANP → ↑ADH → fluid retention and oedema
+
+Hepatic:
+↓CO + ↑CVP → ↓hepatic perfusion pressure → ↓hepatic blood flow
+May result in intermittent hepatic perfusion only during diastole in severe cases → hepatocyte dysfunction
+
+CNS:
+↓venous return → ↑CVP → ↑ICP
+Clinically relevant in TBI — minimise PEEP where possible or ensure CPP is maintained
 
 ### 🟡 F9.iii `partial` · 1 cards
 *Understand respiratory equations that describe ventilation, perfusion, blood flow and respiratory mechanics.*
@@ -1369,7 +1383,7 @@ Measured in mg/L
 *Describe the principles of measuring oxygen concentration.*
 
 ## G: Cardiovascular System ⭐ HIGH YIELD
-*11/32 covered · 5 in progress · 73 cards*
+*11/32 covered · 5 in progress · 83 cards*
 
 ### ⬜ G1.i `not_covered` · 0/~4 cards
 *Describe the anatomy of the heart including the chambers, valves, pericardium, and the orientation of the heart.*
@@ -1573,8 +1587,8 @@ Treatment:
 2. DigiFab (digoxin specific) — removes digoxin, restores Na/K ATPase, reverses chain
 3. Avoid DC cardioversion in digoxin toxicity — worsens Ca²⁺ overload → refractory VF risk
 - **Q:** Compare early afterdepolarisations (EADs) vs delayed afterdepolarisations (DADs)?
-  **A:** EADDADTimingPhase 2 or 3Phase 4MechanismICa(L) reactivation during prolonged APSR Ca²⁺ overload → NCX → ItiHeart rateWorse at slow ratesWorse at fast ratesECGLong QTNormal QTConsequenceTorsades de pointesDigoxin toxicity VT, CPVTTreatmentMg, overdrive pacing, remove causeOverdrive pacing, DigiFabCausesHypokalaemia, long QT, 
-IKr blockers, bradycardiaDigoxin, catecholamines, heart failure
+  **A:** EADDADTimingPhase 2 or 3 (within APD)Phase 4 (after AP)MechanismICa(L) reactivation during prolonged APSR Ca²⁺ overload → spontaneous CICR → NCX forward → Iti (inward current)Heart rateWorse at slow ratesWorse at fast ratesECGLong QTNormal QTConsequenceTorsades de pointesDigoxin toxicity VT, CPVTTreatmentMg, overdrive pacing, remove cause, correct K⁺Overdrive pacing, DigiFabCausesHypokalaemia, long QT, IKr blockers, bradycardiaDigoxin, catecholamines, heart failure, ischaemia
+Danger of EAD: When fired in vulnerable window (after ERP but before AP ends) — propagates with slow conduction through partially recovered tissue → re-entry → TdP
 
 ### ✅ G2.ii `covered` · 4 cards
 *Describe the normal processes of cardiac excitation and electrical activity.*
@@ -1623,7 +1637,7 @@ Long ERP relative to conduction velocity → long wavelength → wavefront arriv
 Homogeneous repolarisation → no dispersion → no unidirectional block substrate
 Fibrous skeleton → forces conduction through AV node only
 
-### ✅ G2.iii `covered` · 2 cards
+### ✅ G2.iii `covered` · 1 cards
 *Correlate the mechanical events of the cardiac cycle with the physical, electrical, and ionic events.*
 
 - **Q:** Surface ECG to cardiac mechanical events: key timing anchors?
@@ -1637,18 +1651,14 @@ ST segment — phase 2 plateau → ventricular ejection
 
 T wave peak → aortic/pulmonary valves close → S2 → IVR begins
 
-T wave end → LV pressure TP segment — diastole (filling + diastasis)
+T wave end → LV pressure < LA pressure → AV valves open → IVR ends → ventricular filling begins
+
+TP segment — diastole (filling + diastasis)
 
 Three anchors to get right:
 QRS onset = S1 + IVC begins
 T wave peak = S2 + IVR begins
 T wave end = AV valves open + filling begins
-- **Q:** Drug effects on ECG intervals — PR, QRS, QTc?
-  **A:** IntervalReflectsProlonged byPRAV nodal conductionClass II, IV, digoxin (vagomimetic), amiodarone, adenosineQRSVentricular conduction velocityClass I (all), TCAs, hyperkalaemia, amiodaroneQTc ↑Ventricular APDClass III (amiodarone, sotalol), Class Ia, SSRIs, antipsychoticsQTc ↓Shortened ventricular APDClass Ib, Class IV (verapamil), digoxin, hypercalcaemia
-One-line summary:
-PR = AV node = Ca²⁺ channels + vagal
-QRS = ventricular conduction = Na⁺ channels
-QTc = ventricular APD = K⁺ channels (repolarisation)
 
 ### 🟡 G3.i `partial` · 4 cards
 *Explain the Frank-Starling mechanism and its relationship to excitation-contraction coupling.*
@@ -1671,7 +1681,7 @@ Negative inotropy/failure — curve shifts down and right (less SV, compensatory
 Descending limb: present in isolated muscle (sarcomere overstretch >2.2 um). Absent in intact heart — pericardium limits dilation and physiological EDVs stay within optimal sarcomere range.
 - **Q:** Preload: define (lab and clinical) and list 5 determinants
   **A:** Definition:
-Lab: sarcomere length at end diastole — initial resting fibre length just prior to contraction
+Lab: sarcomere length at end diastole
 Clinical: EDV (echo) or EDP — CVP approximates RVEDP, PCWP approximates LVEDP
 
 1. Venous return (dominant)
@@ -1801,7 +1811,8 @@ CPP: ~60 mmHg
 ↑LVEDP (heart failure, volume overload) → ↓CPP from below
 ↓DBP (vasodilation, aortic regurgitation) → ↓CPP from above
 Tachycardia: ↓diastolic time → ↑LVEDP + ↓DBP → CPP squeezed from both ends
-- **Q:** List the determinants of MVO2 with approximate percentage contributions
+- **Q:** List the determinants of MVO2 with approximate percentage contributions?
+What is normal MVO2?
   **A:** Internal work (~85-90% of MVO2):
 Wall tension 30-40% — pressure work; energy to generate systolic force without ejecting volume
 Heart rate 15-25% — more beats = more tension-generating cycles
@@ -1985,8 +1996,7 @@ Recruitment → onto steep P-V curve → ↑compliance → ↓WOB
 
 Adverse:
 Overdistension → flat P-V curve → ↓compliance → ↑WOB
-Alveolar overdistension → compress alveolar vessels → ↑PVR → ↑RV afterload
-↑lung volume → inward parenchymal traction on extra-alveolar vessels → ↑PVR
+PVR: U-shaped relationship with lung volume — PEEP ↓PVR if recruiting toward FRC (restores radial traction on extra-alveolar vessels); ↑PVR if overdistending above FRC (alveolar vessel compression) → net effect depends on starting volume → ↑RV afterload if overdistended
 ↑West Zone 1 → ↑alveolar dead space
 Barotrauma/volutrauma
 
@@ -2006,18 +2016,17 @@ Modifiers:
 Worse in hypovolaemia: ↓MSFP → narrow baseline VR gradient → same RAP rise abolishes it
 Attenuated in stiff lungs (ARDS): ↓ITP transmission per cmH2O PEEP → smaller RAP rise
 - **Q:** How does PEEP affect the left ventricle, and why can it improve CO in LV failure?
-  **A:** LV preload: ↓RV output → ↓pulmonary venous return → ↓LV filling → ↓CO (dominant effect in normal heart)
+  **A:** LV preload:
+↓RV output → ↓pulmonary venous return → ↓LV filling → ↓CO (dominant effect in normal heart)
 RV dilation → septal shift → ↓LV compliance → ↓LV filling
 
-LV afterload: ↑ITP → ↓transmural LV pressure during systole → ↓wall tension (Laplace) → ↓afterload → ↑CO
+LV afterload:
+↑ITP → ↓transmural LV pressure during systole → ↓wall tension (Laplace) → ↓afterload → ↑CO
+Mechanism: extrathoracic vasculature (SVR) sits at atmospheric pressure — ↑ITP reduces the pressure gradient the myocardium must generate across its own wall, even though absolute LVP is unchanged
 
-In LV failure: afterload reduction benefit outweighs preload reduction cost → net ↑CO
-Mechanism: failing LV is afterload-sensitive and preload-insensitive (flat cardiac curve) → ↓afterload shifts cardiac curve up more than ↓preload shifts VR curve left
-
-End-organ effects:
-Renal: ↓CO + ↑renal venous pressure → ↓RBF → ↓GFR; ↓atrial stretch → ↓ANP → ↑ADH → fluid retention
-Hepatic: ↓hepatic blood flow → hepatocyte dysfunction
-CNS: ↑CVP → ↑ICP
+In LV failure:
+Afterload reduction benefit outweighs preload reduction cost → net ↑CO
+Failing LV is afterload-sensitive and preload-insensitive (flat Starling curve) → ↓afterload shifts cardiac curve up more than ↓preload shifts VR curve left
 
 ### ⬜ G6.i `not_covered` · 0 cards
 *Describe the principles behind the electrocardiogram (ECG).*
@@ -2088,19 +2097,9 @@ GU: adrenaline: tocolysis (β2) low dose → ↓uteroplacental flow (α1) high d
 ### ⬜ G7.ii `not_covered` · 0 cards
 *Understand the pharmacology of anti-hypertensive drugs.*
 
-### ✅ G7.iii `covered` · 14/~5 cards
+### ✅ G7.iii `covered` · 25/~5 cards
 *Understand the pharmacology of anti-arrhythmic drugs.*
 
-- **Q:** Class I antiarrhythmics — how do they prevent arrhythmia?
-  **A:** Mechanism: Block inactivated Na⁺ channels (use-dependent) → ↓ventricular phase 0 dV/dt → ↓conduction velocity
-
-How this terminates arrhythmia:
-Use-dependent block — preferentially affects fast-firing ectopic foci while sparing normal sinus rhythm
-At fast rates: ↓conduction velocity → wavefront arrives at recovered tissue too slowly → can produce bidirectional block → re-entry circuit terminates
-
-Caveat:
-↓CV without ↑ERP → ↓wavelength → can sustain rather than terminate re-entry in diseased tissue
-Class Ic (flecainide) — CAST trial showed ↑mortality post-MI from this mechanism
 - **Q:** Class II antiarrhythmics — how do they prevent arrhythmia?
   **A:** Mechanism: β-blockade → ↓cAMP → ↓PKA
 
@@ -2266,29 +2265,111 @@ Bradycardia, heart block (vagomimetic excess)
 Accelerated junctional rhythm
 Bidirectional VT — almost pathognomonic of digoxin toxicity
 AF with regularisation (CHB with junctional escape)
-- **Q:** Sotalol — class, mechanism, PK, and why TdP risk is real unlike amiodarone?
-  **A:** Racemic mixture:
-L-sotalol: Class II (β-blockade) + Class III (K⁺ block)
-D-sotalol: pure Class III
-
-Mechanism:
-Class III — blocks IKr → ↑APD, ↑ERP all tissue → ↑QTc
-Class II — ↓SA automaticity, ↓AV conduction → ↑PR, ↓HR
-
-PK (ADME):
-A: Bioavailability >90% (PO or IV)
-D: Zero protein binding
-M: Not metabolised
-E: Excreted entirely unchanged in urine; half-life ~12 hours; renal dose adjustment essential
-
-TdP risk real (unlike amiodarone):
-Heterogeneous APD prolongation — preferentially affects M cells with high IKr expression → ↑dispersion of repolarisation → re-entry substrate
-No ICa(L) block — no suppression of EADs (the TdP trigger)
-
-SWORD trial: pure D-sotalol increased mortality post-MI — Class III without Class II protection is proarrhythmic
 - **Q:** Class I antiarrhythmic subclasses — compare Ia, Ib, Ic?
   **A:** IaIbIcDissociationIntermediateFastSlowUse-dependenceModerateHighLow (persistent)dV/dt↓ (moderate)↓ (minimal at rest)↓↓↓APD↑ (also IKr block)↓UnchangedExamplesQuinidine, procainamideLignocaine, mexiletineFlecainideUseLargely historicalAcute VT, ischaemiaAF in structurally normal heartRiskTdPLow at therapeutic doseRe-entry in diseased myocardium (CAST)
 Ib selective for ischaemic tissue (binds inactivated channels — more inactivation in depolarised ischaemic cells)
+- **Q:** Sotalol — isomers and Vaughan-Williams class?
+  **A:** Racemic mixture:
+L-sotalol: Class II (β-blockade) + Class III (IKr block)
+D-sotalol: pure Class III
+
+Net: both classes active in clinical sotalol — Class II provides rate control, Class III prolongs APD
+- **Q:** Sotalol — mechanism of action and how each class is antiarrhythmic?
+  **A:** Class III (IKr block):
+↓phase 3 repolarisation → ↑APD → ↑ERP → ↑wavelength → re-entry circuit returns to refractory tissue → extinguishes
+
+Class II (β-blockade):
+↓cAMP → ↓ICa(L) → ↓SR Ca²⁺ load → ↓DADs
+↓If → ↓automaticity
+↓AV nodal conduction → rate control in AF
+- **Q:** Sotalol — ADME?
+  **A:** A: >90% bioavailability, PO or IV
+D: Zero protein binding
+M: Not metabolised
+E: Excreted unchanged in urine; half-life ~12 hours
+
+Renal dose adjustment essential — accumulates in renal impairment → ↑QTc → ↑TdP risk
+- **Q:** Sotalol — why is TdP risk real unlike amiodarone, and what does the SWORD trial show?
+  **A:** TdP mechanism:
+Heterogeneous APD prolongation — preferentially prolongs APD in M cells (high IKr expression) → ↑dispersion of repolarisation → re-entry substrate
+No ICa(L) block → EADs not suppressed (ICa(L) reactivation is the TdP trigger)
+
+Contrast amiodarone: homogeneous APD prolongation + ICa(L) block → low TdP risk despite ↑QTc
+
+SWORD trial: D-sotalol alone (pure Class III, no Class II) → ↑mortality post-MI — Class III without β-blockade is proarrhythmic in diseased myocardium
+- **Q:** PR prolongation — what does it reflect, and what drugs cause it?
+  **A:** Reflects: AV nodal conduction time — driven by ICa(L) and vagal tone
+
+Prolonged by:
+Class II — β-blockade → ↓cAMP → ↓ICa(L)
+Class IV — direct ICa(L) block
+Digoxin — vagomimetic → ↑ACh → ↑IKAch
+Amiodarone — Class II + IV effects
+Adenosine — ↑IKAch → hyperpolarisation
+- **Q:** QRS prolongation — what does it reflect, and what drugs cause it?
+  **A:** Reflects: Ventricular conduction velocity — driven by INa (phase 0)
+
+Prolonged by:
+Class I (all subclasses) — Na⁺ channel block → ↓phase 0 dV/dt → ↓CV
+Amiodarone — mild, Class I effect
+TCAs — Na⁺ channel block
+Hyperkalaemia — ↓resting membrane potential → partial Na⁺ channel inactivation
+- **Q:** QTc changes — what does it reflect, what prolongs it, and what shortens it?
+  **A:** Reflects: Ventricular APD — balance of inward ICa(L) and outward IKr/IKs currents
+
+Prolonged by:
+Class III — IKr/IKs block → ↑APD
+Class Ia — IKr block
+Amiodarone, sotalol, SSRIs, antipsychotics
+Hypokalaemia, hypomagnesaemia
+
+Shortened by:
+Class Ib — ↓APD
+Class IV + digoxin — ↓ICa(L) → faster repolarisation
+Hypercalcaemia
+- **Q:** Class Ia antiarrhythmics — dissociation, AP effects, and antiarrhythmic mechanism?
+  **A:** Dissociation: Intermediate — moderate use-dependence
+Phase 0: ↓dV/dt → ↓CV (moderate)
+APD: ↑ (IKr block)
+ERP: ↑
+
+Antiarrhythmic: ↑ERP → ↑wavelength → re-entry terminates
+Risk: IKr block → ↑QTc → TdP
+- **Q:** Class Ia antiarrhythmics — ECG changes and main adverse effects?
+  **A:** ECG: ↑QRS, ↑QTc, PR unchanged
+
+Adverse:
+TdP — heterogeneous APD prolongation
+Procainamide specifically: lupus-like syndrome with chronic use
+- **Q:** Class Ib antiarrhythmics — dissociation, AP effects, and why selective for ischaemic tissue?
+  **A:** Dissociation: Fast — high use-dependence
+Phase 0: ↓minimally at rest; marked block at fast rates
+APD: ↓
+ERP: ↓
+
+Selective for ischaemic tissue — depolarised/inactivated channels bind more drug; also blocks ATP-sensitive K⁺ channels in ischaemia
+Antiarrhythmic: suppresses ischaemic ectopic foci with minimal effect on normal myocardium
+- **Q:** Class Ib antiarrhythmics — ECG changes and main adverse effects?
+  **A:** ECG: ↔QRS, ↓QTc (↓APD), ↔PR — minimal at rest
+
+Adverse:
+CNS — circumoral tingling, dizziness, seizures at toxic doses
+Low cardiac toxicity at therapeutic doses
+- **Q:** Class Ic antiarrhythmics — dissociation, AP effects, and why dangerous in diseased myocardium?
+  **A:** Dissociation: Slow — persistent block even at normal rates
+Phase 0: ↓↓↓dV/dt → ↓↓↓CV
+APD: Unchanged
+ERP: Unchanged
+
+↓CV without ↑ERP → ↓wavelength → pro-re-entry in diseased tissue
+Safe only in structurally normal hearts
+CAST trial: flecainide ↑mortality post-MI despite suppressing PVCs
+- **Q:** Class Ic antiarrhythmics — ECG changes and main adverse effect?
+  **A:** ECG: ↑↑QRS (marked ↓CV), ↔QTc, ↔PR
+
+Adverse:
+Proarrhythmic in diseased myocardium — re-entry in scarred tissue
+Contraindicated post-MI and structural heart disease
 
 ### ⬜ G7.iv `not_covered` · 0 cards
 *Understand the pharmacology of anti-anginal drugs.*
